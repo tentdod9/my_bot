@@ -1,0 +1,66 @@
+[0.015s] Invoking command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/tenthub/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tenthub/dev_ws/src/my_bot/install/my_bot
+[0.111s] -- The C compiler identification is GNU 9.4.0
+[0.251s] -- The CXX compiler identification is GNU 9.4.0
+[0.256s] -- Check for working C compiler: /usr/bin/cc
+[0.323s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.323s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.482s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.573s] -- Detecting CXX compile features
+[0.574s] -- Detecting CXX compile features - done
+[0.580s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.605s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.789s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.878s] -- Configured cppcheck include dirs: 
+[0.878s] -- Configured cppcheck exclude dirs and/or files: 
+[0.884s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.884s] -- Configured cpplint exclude dirs and/or files: 
+[0.886s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.889s] -- Added test 'lint_cmake' to check CMake code style
+[0.891s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.897s] -- Added test 'uncrustify' to check C / C++ code style
+[0.897s] -- Configured uncrustify additional arguments: 
+[0.899s] -- Added test 'xmllint' to check XML markup files
+[0.903s] -- Configuring done
+[0.907s] -- Generating done
+[0.909s] -- Build files have been written to: /home/tenthub/dev_ws/src/my_bot/build/my_bot
+[0.913s] Invoked command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/tenthub/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tenthub/dev_ws/src/my_bot/install/my_bot
+[0.916s] Invoking command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tenthub/dev_ws/src/my_bot/build/my_bot -- -j2 -l2
+[0.957s] Invoked command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tenthub/dev_ws/src/my_bot/build/my_bot -- -j2 -l2
+[1.004s] Invoking command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tenthub/dev_ws/src/my_bot/build/my_bot
+[1.019s] -- Install configuration: ""
+[1.019s] -- Execute custom install script
+[1.020s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.030s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.037s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.044s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.051s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.060s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.069s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.077s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.084s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.095s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.102s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.109s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.117s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.124s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.134s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.140s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.148s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.156s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.168s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.176s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.183s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.191s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.201s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.208s] -- Symlinking: /home/tenthub/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[1.219s] Invoked command in '/home/tenthub/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tenthub/dev_ws/src/my_bot/build/my_bot
